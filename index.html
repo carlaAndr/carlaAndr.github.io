@@ -1,1 +1,105 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Carla Andrea</title>
+    <link rel="icon" href="icon.jpg" type="image/png"> <!-- Agrega la línea para el ícono -->
+    <style>
+        body {
+            background-color: #C8A2C8;
+            font-family: Candara, Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        h1 {
+            font-size: 36px;
+            color: black;
+            font-family: Candara, Arial, sans-serif;
+            text-align: center;
+            border-bottom: 2px solid black;
+            padding-bottom: 10px;
+        }
+        hr {
+            border: none; /* Elimina el borde predeterminado de la línea */
+            height: 2px; /* Grosor de la línea en píxeles */
+            background-color: black; /* Color de la línea */
+        }
+        .content {
+            display: flex;
+            flex-direction: row; /* Alinea los elementos en fila */
+            align-items: center; /* Centra verticalmente el contenido */
+        }
+        .image-container {
+            margin-right: 20px; /* Agrega un espacio entre la imagen y el título */
+        }
+        .image-container img {
+            max-width: 200px;
+            display: block;
+            border: none;
+        }
+        .icon-container {
+            margin-left: 20px; /* Espacio entre la imagen y la sección "Blog" */
+        }
+        .icon-container img {
+            max-width: 200px; /* Ajusta el tamaño de la imagen del ícono */
+            display: block;
+            border: none;
+        }
+        .section {
+            background-color: white;
+            padding: 20px;
+            margin: 10px 10px;
+            width: 800px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body> 
+
+    <h1>Carla Andrea</h1>
+
+    <div class="content">
+        <div class="image-container">
+            <img src="Raccoon.jpeg" alt="Icono de un mapache">
+        </div>
+
+        <div class="section" style="text-align: center; margin: 0 auto;">
+            <h2>About Me</h2>
+            <hr>
+            <p>Esta es la sección de información sobre mí. Soy alumna de la licenciatura en Ciencia de datos en el Instituto Tecnológico Autónomo de México</p>
+            <p>
+                
+            </p>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="section" style="text-align: center; margin: 0 auto;">
+            <h2>Blog</h2>
+            <hr>
+            <p>Ciencia de Datos en el deporte</p>
+            <p>
+                
+            </p>
+        </div>
+
+        <div class="icon-container">
+            <img src="Sport.jpg" alt="DataSports">
+        </div>
+    </div>
+
+    <div class="section" style="text-align: left; margin: 20px auto 0;">
+        <h2>Mis proyectos</h2>
+        <hr>
+        <p>Repositorios</p>
+        <ol style="text-align: left; display: inline-block; text-align: center;">
+            <li>Fuentes de datos: <a href="https://github.com/carlaAndr/fdd_o23">Aquí</a></li>
+            <li>Calculadora: <a href="https://github.com/carlaAndr/Calculadora">Aquí</a></li>
+            <li>Introducción a Git: <a href="https://github.com/carlaAndr/skills-introduction-to-github">Aquí</a></li>
+        </ol>
+    </div>
+
+</body>
+</html>
